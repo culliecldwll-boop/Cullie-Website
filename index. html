@@ -1,19 +1,139 @@
+
 <!DOCTYPE html>
 <html>
 <head>
   <title>Cullie Lawn Care</title>
   <style>
-    body { font-family: Arial; background: #f5f5f5; padding: 40px; }
-    .box { background: white; padding: 20px; border-radius: 10px; max-width: 600px; margin: auto; }
-    h1 { color: #2a7f2a; }
+    body { margin: 0; font-family: Arial; background: #f5f5f5; }
+    nav { background: #2a7f2a; padding: 15px; }
+    nav a { color: white; margin-right: 20px; text-decoration: none; font-size: 18px; }
+    .hero { padding: 60px; text-align: center; background: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6') center/cover; color: white; }
+    .hero h1 { font-size: 48px; margin-bottom: 10px; }
+    .hero p { font-size: 22px; }
+    .section { max-width: 800px; margin: 40px auto; background: white; padding: 30px; border-radius: 10px; }
   </style>
 </head>
 <body>
-  <div class="box">
-    <h1>Cullie Lawn Care</h1>
-    <p>Premium cool-season turf care in Spartanburg, SC.</p>
-    <p>Fertilizer programs • Weed control • Fungicide • Aeration • Overseeding</p>
-    <p>Call: (864) XXX‑XXXX</p>
-  </div>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="hero">
+  <h1>Cullie Lawn Care</h1>
+  <p>Premium cool-season turf care in Spartanburg, SC</p>
+</div>
+
+<div class="section">
+  <h2>Welcome</h2>
+  <p>We specialize in cool-season turf, granular fertilizer programs, weed control, fungicide, aeration, and overseeding. Professional results, reliable service, and commercial-grade products.</p>
+</div>
+
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Services - Cullie Lawn Care</title>
+  <style>
+    body { margin: 0; font-family: Arial; background: #f5f5f5; }
+    nav { background: #2a7f2a; padding: 15px; }
+    nav a { color: white; margin-right: 20px; text-decoration: none; font-size: 18px; }
+    .section { max-width: 800px; margin: 40px auto; background: white; padding: 30px; border-radius: 10px; }
+    h2 { color: #2a7f2a; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="section">
+  <h2>Our Services</h2>
+
+  <h3>Fertilizer Programs</h3>
+  <p>Commercial-grade granular fertilizer tailored for cool-season turf.</p>
+
+  <h3>Weed Control</h3>
+  <p>Pre-emergent and post-emergent treatments for broadleaf and grassy weeds.</p>
+
+  <h3>Fungicide Applications</h3>
+  <p>Professional fungicide programs for fairy ring, brown patch, and more.</p>
+
+  <h3>Aeration</h3>
+  <p>Core aeration to improve soil health and root development.</p>
+
+  <h3>Overseeding</h3>
+  <p>Premium seed blends including NightShift/Dark:30 elite cool-season turf.</p>
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gallery - Cullie Lawn Care</title>
+  <style>
+    body { margin: 0; font-family: Arial; background: #f5f5f5; }
+    nav { background: #2a7f2a; padding: 15px; }
+    nav a { color: white; margin-right: 20px; text-decoration: none; font-size: 18px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 40px; }
+    .grid img { width: 100%; border-radius: 10px; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="grid">
+  <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+  <img src="https://images.unsplash.com/photo-1508873699372-7ae4e91a0f2a">
+  <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+  <img src="https://images.unsplash.com/photo-1500382017468-9049fedf3fc0">
+</div>
+
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+  <title>Contact - Cullie Lawn Care</title>
+  <style>
+    body { margin: 0; font-family: Arial; background: #f5f5f5; }
+    nav { background: #2a7f2a; padding: 15px; }
+    nav a { color: white; margin-right: 20px; text-decoration: none; font-size: 18px; }
+    .section { max-width: 800px; margin: 40px auto; background: white; padding: 30px; border-radius: 10px; }
+    h2 { color: #2a7f2a; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="section">
+  <h2>Contact Us</h2>
+  <p><strong>Cullie Lawn Care</strong></p>
+  <p>Spartanburg, SC</p>
+  <p>Phone: (864) XXX‑XXXX</p>
+  <p>Email: your-email@example.com</p>
+</div>
+
+</body>
+</html>
+
