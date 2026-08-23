@@ -14,8 +14,8 @@
   </style>
 </head>
 <body>
-
 <nav>
+  <img src="logo.png" style="height:40px; vertical-align:middle; margin-right:15px;">
   <a href="index.html">Home</a>
   <a href="services.html">Services</a>
   <a href="gallery.html">Gallery</a>
